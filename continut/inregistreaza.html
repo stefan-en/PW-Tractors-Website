@@ -1,0 +1,74 @@
+<main>
+    <body class="body-inregistrare">
+        <div class="chenar">
+            <div class="centerAccount">
+                <p> <h1>Creare cont client</h1></p>
+                <div id="fildset1">
+                    <fieldset>
+                        <legend>Introduceti datele dumneavoastra:</legend>
+
+                        <label for="uname">Nume utilizator:</label><br>
+                        <input type="text" id="uname" name="fname"><br><br>
+                        <label for="pname">Parola:</label><br>
+                        <input type="password" id="pass" name="pname"><br><br>
+
+                        <label for="fname">Nume familie:</label><br>
+                        <input type="text" id="fname" name="fname"><br><br>
+
+                        <label for="lname">Prenume:</label><br>
+                        <input type="text" id="lname" name="lname"><br><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"><br><br>
+
+                        <label for="tel">Varsta:</label><br>
+                        <input type="number" id="varsta" name="tel"><br><br>
+                    </fieldset>
+                
+        
+                    <fieldset> 
+                        <legend>Introduceti datele tractorului pe care il achizitionati:</legend>
+                        <label for="Provienienta">Alegeti tare de provienienta a tractorului:</label><br>
+                        <select id="Provienienta" name="Provienienta">
+                            <option value="USA">USA</option>
+                            <option value="UE">UE</option>
+                            <option value="Asia">Asia</option>
+                            <option value="Africa">Africa</option>
+                        </select><br>
+
+                        <label for="Marca tractorului">Alegeti marca tractorului:</label><br>
+                        <input list="tractor" name="tractor" id="tractorId">
+                        <datalist id="tractor">
+                            <option value="John Deree">
+                            <option value="Tagro IRUM">
+                            <option value="Case IH">
+                            <option value="New Holland">
+                            <option value="Deutz-Farh">
+                        </datalist><br>
+                        <label for="colors">Alegeti culoarea preferata pentru tractor:</label><br>
+                        <input type="color" id="color" name="color"><br>
+                        
+                        <label for="birthday">Alegeti ziua livararii:</label><br>
+                        <input type="date" id="birthday" name="birthday"><br><br>
+
+                        <label for="ora">Alegeti un interval de livrare:</label><br>
+                        <input type="time" id="ora" name="ora"><br><br>
+
+                        <label for="varsta">Introduceti un maxim de putere pentru tractor:</label><br>
+                        <input type="range" min = "80" max = "350" step="5" id="pw" name="varsta"><br>
+
+                        <label for="urls">Introduceti un site ul fermei dumneavoastra:</label><br>
+                        <input type="url" id="url" name="url"><br><br>
+
+                        <textarea rows="4" cols="50" name="comment" form="usrform">Adaugati o nota pentru livrate</textarea><br>
+                    
+                        <button type="button" onclick="adaug()">Creaza Cont</button>
+                    </fieldset>
+                </div>
+            </div>
+                <footer class = "footer">
+                    <p>Author: Enache Stefan <br> <a href="stefy002.se@gmail.com">se@gm.com</a></p>
+                </footer>
+        </div>
+    </body>
+</main> 

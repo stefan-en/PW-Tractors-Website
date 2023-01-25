@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <!DOCTYPE tractoare SYSTEM "tractoare.dtd"> -->
+<tractoare>
+    <tractor id ="1">
+        <marca> John Deere </marca>
+        <serie> 6M </serie>
+        <nume> John Deere 6M120 </nume>
+        <capacitate_cilindrica>4468cm^3</capacitate_cilindrica>
+        <gama_putere>110-140cp</gama_putere>
+        <putere_nominala>120cp</putere_nominala>
+        <rezervor_combustibil>140l</rezervor_combustibil>
+        <viteza_maxima>37km/h</viteza_maxima>   
+        <anvelope_fata>160R30</anvelope_fata>
+        <anvelope_spate>380R34</anvelope_spate>
+        <inaltime>3100mm</inaltime>
+        <latime>2280mm</latime>
+        <lungime>4650mm</lungime>
+        <garda_sol>630mm</garda_sol> 
+        
+    </tractor>
+    <tractor id ="2">
+        <marca>Case</marca>
+        <serie>95</serie>
+        <nume>Case Fermall 95A</nume>
+        <capacitate_cilindrica>3468cm^3</capacitate_cilindrica>
+        <gama_putere>90-110cp</gama_putere>
+        <putere_nominala>105cp</putere_nominala>
+        <rezervor_combustibil>120l</rezervor_combustibil>
+        <viteza_maxima>32km/h</viteza_maxima>   
+        <anvelope_fata>150R33</anvelope_fata>
+        <anvelope_spate>340R35</anvelope_spate>
+        <inaltime>3000mm</inaltime>
+        <latime>2260mm</latime>
+        <lungime>4450mm</lungime>
+        <garda_sol>520mm</garda_sol> 
+        
+
+    </tractor>
+    <tractor id ="3">
+
+        <marca>Irum</marca>
+        <serie>Tagro</serie>
+        <nume>Tagro Irum 102</nume>
+        <capacitate_cilindrica>3468cm^3</capacitate_cilindrica>
+        <gama_putere>90-110cp</gama_putere>
+        <putere_nominala>102cp</putere_nominala>
+        <rezervor_combustibil>120l</rezervor_combustibil>
+        <viteza_maxima>36km/h</viteza_maxima>
+        <anvelope_fata>380R24</anvelope_fata>
+        <anvelope_spate>460R34</anvelope_spate>
+        <inaltime>3000mm</inaltime>
+        <latime>2250mm</latime>
+        <lungime>4440mm</lungime>
+        <garda_sol>460mm</garda_sol> 
+       
+
+    </tractor>
+    <tractor id ="4">
+        <marca>Class</marca>
+        <serie>Axion</serie>
+        <nume>Class Axion 900 Terra Trac</nume>
+        <capacitate_cilindrica>6468cm^3</capacitate_cilindrica>
+        <gama_putere>300-350cp</gama_putere>
+        <putere_nominala>325cpcp</putere_nominala>
+        <rezervor_combustibil>360l</rezervor_combustibil>
+        <viteza_maxima>42km/h</viteza_maxima> 
+        <anvelope_fata>600/70R34</anvelope_fata>
+        <anvelope_spate>senile</anvelope_spate>
+        <inaltime>3500mm</inaltime>
+        <latime>2250mm</latime>
+        <lungime>4440mm</lungime>
+        <garda_sol>660mm</garda_sol> 
+    </tractor>
+</tractoare>

@@ -1,0 +1,17 @@
+<!ELEMENT tractoare (tractor+)>
+<!ELEMENT tractor (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT serie (#PCDATA)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT capacitate_cilindrica (#PCDATA)>
+<!ELEMENT gama_putere (#PCDATA)>
+<!ELEMENT putere_nominala (#PCDATA)>
+<!ELEMENT rezervor_combustibil (#PCDATA)>
+<!ELEMENT viteza_maxima (#PCDATA)>
+<!ELEMENT anvelope_fata (#PCDATA)>
+<!ELEMENT anvelope_spate (#PCDATA)>
+<!ELEMENT latime (#PCDATA)>
+<!ELEMENT lungime (#PCDATA)>
+<!ELEMENT inaltime (#PCDATA)>
+<!ELEMENT garda_sol (#PCDATA)>
+<!ATTLIST tractor id CDATA #REQUIRED>

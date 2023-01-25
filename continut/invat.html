@@ -1,0 +1,66 @@
+<main>
+    <body id = "body-index" onload= "afis()">
+        <div class = "invat">
+            <aside >
+                <a href="#S1" class ="style">
+                   <h1> Sectiunea 1 </h1>
+                </a>
+                <a href="#S2" class ="style">
+                    <h1> Sectiunea 2 </h1>
+                </a>
+                <a href="#S3" class ="style">
+                    <h1> Sectiunea 3 </h1>
+                </a>
+            </aside>
+        </div>
+        <section class ="S1">
+            <p id = "myTime"></p>
+            <p id ="myLocation"></p>
+            <p id = "myBrowser"></p>
+            <p id = "mySO"></p>
+        </section>
+        <section id = "S2">
+            <canvas onclick="desenez(event)" id="canvas" width="500" height="300"
+                style="border:1px solid #000000;"></canvas>
+            <label for="favcolor1">Pen:</label>
+            <input type="color" id="favcolor1" name="favcolor1" value="#ff0000">
+            <label for="favcolor2">Fill:</label>
+            <input type="color" id="favcolor2" name="favcolor2" value="#ff0000">
+            <div id="button">
+                <input type="button" id="clear" value="Clear">
+              </div>
+        </section>
+    </section>
+    <section id="S3">
+        <table id="table" class="rows">
+            <tr>
+                <td>Numar item </td>
+                <h1><th>Tractorul   </th></h1>
+                <th>Marca   </th>
+                <th>Puterea     </th>
+                <th>Modelul     </th>
+            </tr>
+                <td>             <td>
+                <td>             </td>
+            <tr>
+                
+            </tr>
+        </table>
+        <label for="linie">Line:</label><br>
+        <input type="number" id="linie" name="linie"><br>
+
+        <label for="coloana">Column:</label><br>
+        <input type="number" id="coloana" name="coloana"><br>
+
+        <label for="favcolor3">Color:</label><br>
+        <input type="color" id="favcolor3" name="favcolor3" value="#ff0000"><br>
+        <input type="submit" value="Add line" onclick="adaugLinie()"><br>
+
+        <input type="submit" value="Add column" onclick="adaugColoana()">
+    </section>
+        
+        <footer id = "footer">
+            <p>Author: Enache Stefan <br> <a href="stefy002.se@gmail.com">se@gm.com</a></p>
+        </footer>
+    </body>
+</main>

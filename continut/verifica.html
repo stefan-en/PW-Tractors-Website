@@ -1,0 +1,12 @@
+
+<main>
+    <div class = "verific">
+        <label for="uname">Nume utilizator:</label><br>
+        <input type="text" id="fnameConn" name="fname"><br><br>
+        <label for="pname">Parola:</label><br>
+        <input type="password" id="pnameConn" name="pname" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br><br>
+        <button id = "button"type="button" onclick="parsare()">Conectare</button>
+        <p class ="result" style="color: green"></p>
+
+    </div> 
+</main>

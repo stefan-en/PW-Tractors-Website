@@ -1,0 +1,173 @@
+.body-inregistrare{
+    background-image: url("../fendt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.interfata{
+    background-image: url("../pics.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+.body-video{
+    background-color: #7ef3b3;
+
+}
+.footer {
+    background-color:#76798a;
+    color:aqua;
+    position : absolute;
+    bottom : 0;
+    height : 0px;
+}
+nav > a{
+    background-color: #7d9c87;
+    height: 1px;
+    width: 1px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1px 5px 5px 5px;
+    margin:3px;
+    text-decoration: none;
+}
+.centrer{
+    background-color: blanchedalmond;
+    opacity: .6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:130px;
+}
+.h1start{
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+}
+.centerAccount{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+}
+fieldset {
+    width: fit-content;
+}
+#fildset1{
+    display: flex
+}
+#footer-video {
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 200px;
+}
+
+.img{
+    justify-content:end;
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.centrerh{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center;
+    min-height: 4px;
+    
+}
+.style{
+    clear:both;
+    display : inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-size-adjust: 10px;
+    padding :10px;
+    
+}
+
+.chenar{
+    box-sizing: content-box;
+    width: 50%;
+    border: solid #5B6DCD 10px;
+    padding: 3px;
+    box-sizing: border-box;
+    opacity: .8;
+    margin: 1cm;
+    width: 50%;
+    border: solid #5B6DCD 10px;
+    padding: 3px;
+    background-color: #5B6DCD;
+}
+.acasa{
+    box-sizing: content-box;
+    width: 50%;
+    border: solid #000000 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    opacity: .8;
+    width: 30%;
+    border: solid #000000 1px;
+    padding: 1px;
+    background-color: #76798a;
+    
+}
+.rows{
+    
+    width: 40%;
+    height: 40%;
+}
+.ceva{
+    border : 1px solid black;
+    border-collapse: collapse;
+}
+table,th,td {
+    background-color: #61bde2;
+    opacity: .8;
+    margin-top: 20px;
+    margin-left: 10px;
+    border : 1px solid black;
+    border-collapse: collapse;
+  }
+  th,td {
+    padding: 5px;
+  }
+  .verific{
+
+    box-sizing: content-box;
+    width: 30%;
+    padding: 5px;
+    box-sizing: border-box;
+    opacity: .7;
+    width: 20%;
+    padding: 20px;
+    background-color: #b26fc7;
+    margin-top:  20px;
+    margin-left: 10px;
+
+  }
+.S1
+{
+    box-sizing: content-box;
+    width: 30%;
+    padding: 5px;
+    box-sizing: border-box;
+    opacity: .7;
+    width: 20%;
+    padding: 20px;
+    background-color: #b26fc7;
+    margin-top:  20px;
+    margin-left: 10px;
+}
+<% if (tabela){ %>
+        <table><tr><td>Id</td><td>Nume</td><td>Pret</td></tr>
+            <% for(let i = 0; i < tabela.length; i++)
+            { %>
+            <tr><td><%= tabela[i].id %></td><td><%= tabela[i].nume %></td><td><%= tabela[i].pret %> </td> <td></td></tr>
+            <%}  %>
+        </table>
+                
+   
+    <% } %>  

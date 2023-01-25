@@ -1,0 +1,21 @@
+[
+  {
+    "utilizator": "vasi",
+    "parola": "test"
+  },
+  {
+    "utilizator": "test",
+    "parola": "test",
+    "fname": "",
+    "lastname": "",
+    "email": "",
+    "age": "",
+    "tara": "USA",
+    "marca": "",
+    "color": "#000000",
+    "livrare": "",
+    "timp": "",
+    "po": "215",
+    "urs": ""
+  }
+]
